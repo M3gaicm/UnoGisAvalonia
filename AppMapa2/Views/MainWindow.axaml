@@ -1,0 +1,278 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:vm="using:AppMapa2.ViewModels"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+        x:Class="AppMapa2.Views.MainWindow"
+        x:DataType="vm:MainWindowViewModel"
+        Icon="/Assets/avalonia-logo.ico"
+        Title="AppMapa2"
+        ExtendClientAreaToDecorationsHint="True"
+        ExtendClientAreaTitleBarHeightHint="-1"
+		WindowState="Maximized"
+        >
+
+
+	<Window.Styles>
+		<Style Selector="Window">
+			<Setter Property="Background">
+				<Setter.Value>
+					<ImageBrush Source="C:\Users\ivanc\source\repos\AppMapa2\Assets\mapa2.jpg"
+                                Stretch="{Binding BackgroundStretch}" />
+				</Setter.Value>
+			</Setter>
+		</Style>
+	</Window.Styles>
+
+
+
+	<Canvas>
+		<Grid HorizontalAlignment="Stretch" RowDefinitions="*,0">
+			<StackPanel Grid.Column="0" Orientation="Horizontal" Margin="10,10,0,0" >
+					<TextBlock HorizontalAlignment="Center" VerticalAlignment="Center">LAPTOP-8347J38\ivan</TextBlock>
+			
+			<ComboBox PlaceholderText="Español(España)" Margin="10,0,0,0" Background="Transparent">
+				<ComboBoxItem>català</ComboBoxItem>
+				<ComboBoxItem>English</ComboBoxItem>
+				<ComboBoxItem>Español(España)</ComboBoxItem>
+			</ComboBox>
+			<ComboBox PlaceholderText="Snap Punto" Margin="10,0,0,0" Background="Transparent">
+				<ComboBoxItem>Punto</ComboBoxItem>
+				<ComboBoxItem>Linea</ComboBoxItem>
+				<ComboBoxItem>Mitad segmento</ComboBoxItem>
+				<ComboBoxItem>Ultimo</ComboBoxItem>
+				<ComboBoxItem>Z en segmento</ComboBoxItem>
+				<ComboBoxItem>Intersectar</ComboBoxItem>
+			</ComboBox>
+			<TextBlock Margin="10,0,0,0">
+				<CheckBox>Snap con Z</CheckBox>
+			</TextBlock>
+			<TextBlock Margin="10,0,0,0">
+				<CheckBox >Snap con corte</CheckBox>
+			</TextBlock>
+				</StackPanel>
+		
+		</Grid>
+
+			
+
+		
+		<StackPanel Canvas.Top="30" Canvas.Right="20" >
+			<TextBlock Name="CoordinatesTextBlock" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+		</StackPanel>
+		<!-- Otras definiciones de filas y columnas aquí, si es necesario -->
+		
+		<!-- Definición de la fila y la columna para el Border -->
+
+		<!-- Border con ScrollViewer para la vista 3 -->
+		<ScrollViewer MaxWidth="600" MaxHeight="350"
+                      HorizontalScrollBarVisibility="Auto" VerticalScrollBarVisibility="Auto"
+                      Canvas.Right="90" Canvas.Top="90">
+			<Border CornerRadius="12" Background="Transparent" Padding="5">
+				<StackPanel>
+					<!-- Contenido actual del panel para la vista 3 -->
+					<TransitioningContentControl Content="{Binding CurrentPage1}" Margin="0,0,0,15" />
+					<TransitioningContentControl Content="{Binding CurrentPage2}" Margin="0,0,0,15" />
+					<TransitioningContentControl Content="{Binding CurrentPage3}" Margin="0,0,0,15" />
+					<TransitioningContentControl Content="{Binding CurrentPage4}" Margin="0,0,0,15" />
+				</StackPanel>
+			</Border>
+		</ScrollViewer>
+
+		<StackPanel Canvas.Right="40" Canvas.Top="164">
+			<TextBlock Name="edicionInfo" Text="Edicion" IsVisible="False" />
+		</StackPanel>
+
+		<StackPanel Canvas.Right="40" Canvas.Top="208">
+			<TextBlock Name="cercadosInfo" Text="Cercados" IsVisible="False" />
+		</StackPanel>
+		<StackPanel Canvas.Right="40" Canvas.Top="254">
+			<TextBlock Name="topologiaInfo" Text="Topologia" IsVisible="False" />
+		</StackPanel>
+		<StackPanel Canvas.Right="40" Canvas.Top="300">
+			<TextBlock Name="geoprocesosInfo" Text="Geoprocesos" IsVisible="False" />
+		</StackPanel>
+		<!-- Botones para cambiar la vista -->
+		<StackPanel Canvas.Right="10" Canvas.Top="100" Orientation="Vertical" Margin="0,0,20,0" >
+
+			<Button Name="botonArriba" Click="BotonArriba_Click">^</Button>
+			<Button Click="BotonMenos_Click">-</Button>
+
+		</StackPanel>
+		<StackPanel Canvas.Right="10" Canvas.Top="160" Orientation="Vertical" Margin="0,0,20,0" Name="buttonStackPanel">
+			<Button Name="edicion" Content="Edicion" Command="{Binding ShowView1Command}" PointerEntered="Button_PointerEntered" PointerExited="Button_PointerExited" Margin="0,0,0,20" Height="25" Width="30" Background="Transparent">
+				<PathIcon Data="{StaticResource edit_settings_regular}" />
+			</Button>
+			<Button Name="cercados" Content="Cercados" Command="{Binding ShowView2Command}" Margin="0,0,0,20" Height="25" Width="30" Background="Transparent"
+			PointerEntered="Button_PointerEntered" PointerExited="Button_PointerExited">
+				<PathIcon Data="{StaticResource walkie_talkie_regular}" />
+			</Button>
+			<Button Name="topologia" Content="Topología" Command="{Binding ShowView3Command}" Margin="0,0,0,20" Height="25" Width="30" Background="Transparent"
+					PointerEntered="Button_PointerEntered" PointerExited="Button_PointerExited">
+				<PathIcon Data="{StaticResource map_regular}" />
+			</Button>
+			<Button Name="geoprocesos" Content="GeoProcesos" Command="{Binding ShowView4Command}" Margin="0,0,0,20" Height="25" Width="30" Background="Transparent"
+					PointerEntered="Button_PointerEntered" PointerExited="Button_PointerExited">
+				<PathIcon Data="{StaticResource circle_regular}" />
+			</Button>
+			<!-- <Button Content="Modelo Digital De Terreno" Command="{Binding ShowView5Command}" Margin="0,0,0,20" />-->
+			<Button Content="Stereo 3D" Command="{Binding ShowView6Command}"  Margin="0,0,0,20" Height="25" Width="30" Background="Transparent">
+				<PathIcon Data="{StaticResource music_regular} "  />
+			</Button>
+			<Button Content="Configuracion" Command="{Binding ShowView7Command}" Margin="0,0,0,20" Height="25" Width="30" Background="Transparent">
+				<PathIcon Data="{StaticResource settings_regular}" />
+			</Button>
+			<Button Name="botonOculto" Content="Configuracion" Command="{Binding ShowView7Command}" Margin="0,0,0,20" Height="25" Width="30" Background="Transparent" IsVisible="False">
+				<PathIcon Data="{StaticResource settings_regular}" />
+			</Button>
+			</StackPanel>
+
+		<StackPanel Canvas.Bottom="30" Canvas.Right="60" Orientation="Horizontal">
+		
+			
+			<ComboBox MaxWidth="200" x:Name="comboBox">
+				<ComboBoxItem Content="Datum 73/Modified Portuguese Grid"/>
+				<ComboBoxItem Content="EPSG:23031, ED50/UTM zone 31N "/>
+				<ComboBoxItem Content="EPSG:25830, ETRS89/ UTM zone 30N "/>
+				<ComboBoxItem Content="28N EPSG:3857, WGS 84/ Pseudo-Mercator"/>
+				<ComboBoxItem Content="EPSG:4326, WGS 84"/>
+				<ComboBoxItem Content="ESRI:102100, WGS_1984_Web_Mercator_Auxiliary_Spher"/>
+				<ComboBoxItem Content="EPSG:900913, Google Mercator"/>
+				
+			</ComboBox>
+
+			<Button  Content="Editcion"   Click="changeCursorCroos" Margin="20,0,0,0" Height="25" Width="30" Background="Transparent">
+				<PathIcon Data="{StaticResource globe_desktop_regular}" />
+			</Button>
+			<Rectangle Width="2" Height="40" Fill="Gray" Margin="5 0"/>
+			<Button  Content="Editcion"   Click="changeCursorCroos" Margin="0,0,0,0" Height="25" Width="30" Background="Transparent">
+				<PathIcon Data="{StaticResource cursor_regular}" />
+			</Button>
+			<Button Content="Cercados"   Click="changeCursorHand" Margin="20,0,0,0" Height="25" Width="30" Background="Transparent">
+				<PathIcon Data="{StaticResource hand_raise_regular}" />
+			</Button>
+			<Button  Content="Topologia" Command="{Binding ShowView3Command}" Margin="20,0,0,0" Height="25" Width="30" Background="Transparent">
+				<PathIcon Data="{StaticResource dual_screen_desktop_regular}" />
+			</Button>
+			<Button Content="GeoProcesos" Command="{Binding ShowView4Command}" Margin="20,0,0,0" Height="25" Width="30" Background="Transparent">
+				<PathIcon Data="{StaticResource zoom_out_regular}" />
+			</Button>
+			<!-- <Button Content="Modelo Digital De Terreno" Command="{Binding ShowView5Command}" Margin="0,0,0,20" />-->
+			<Button Content="Stereo 3D" Command="{Binding ShowView6Command}"  Margin="20,0,0,0" Height="25" Width="30" Background="Transparent">
+				<PathIcon Data="{StaticResource zoom_in_regular} "  />
+			</Button>
+			<Button Content="Configuracion" Click="changeCursorZoom" Margin="20,0,0,0" Height="25" Width="30" Background="Transparent">
+				<PathIcon Data="{StaticResource document_search_regular}" />
+			</Button>
+			<Button Content="Configuracion" Command="{Binding ShowView7Command}" Margin="20,0,0,0" Height="25" Width="30" Background="Transparent">
+				<PathIcon Data="{StaticResource arrow_rotate_clockwise_regular}" />
+			</Button>
+			<Button Content="Configuracion" Command="{Binding ShowView7Command}" Margin="20,0,0,0" Height="25" Width="30" Background="Transparent">
+				<PathIcon Data="{StaticResource arrow_reply_regular}" />
+			</Button>
+			<Button Content="Configuracion" Click="abrirVentanaCalendario" Margin="20,0,0,0" Height="25" Width="30" Background="Transparent">
+				<PathIcon Data="{StaticResource calendar_add_regular}" />
+			</Button>
+
+		</StackPanel>
+		
+		
+
+		
+		<!-- Primer SplitView -->
+
+
+		<SplitView Canvas.Left="0" IsPaneOpen="{Binding IsPaneOpen}"
+	   OpenPaneLength="200" CompactPaneLength="0"
+	   DisplayMode="CompactInline" PaneBackground="Gray" Height="700">
+
+				<SplitView.Pane>
+					
+					<StackPanel>
+						<TreeView>
+							<TreeViewItem Header="TOC">
+								<TreeViewItem.ContextMenu>
+									<ContextMenu>
+										<MenuItem Header="Nuevo..." Click="SelectImage_Click" />
+										<MenuItem Header="Añadir Datos..." Click="SelectImage_Click" />
+										<MenuItem Header="Propiedades..." IsEnabled="False" />
+									</ContextMenu>
+								</TreeViewItem.ContextMenu>
+
+								<!-- Contenido de Parc -->
+								<TreeViewItem Header="Parc">
+									<TreeViewItem.ContextMenu>
+										<ContextMenu>
+											<MenuItem Header="Quitar" Click="SelectImage_Click" />
+											<MenuItem Header="Encender/Apagar">
+												<MenuItem Header="Encender Todo" />
+												<MenuItem Header="Encender Puntuales" />
+											</MenuItem>
+											<MenuItem Header="Ordenar por">
+												<MenuItem Header="Nombre ascendente" />
+												<MenuItem Header="Nombre descendente" />
+											</MenuItem>
+											<MenuItem Header="Crear Capa..." Click="SelectImage_Click" />
+											<MenuItem Header="Datos">
+												<MenuItem Header="Exportar Datos..." Click="SelectImage_Click" />
+											</MenuItem>
+										</ContextMenu>
+									</TreeViewItem.ContextMenu>
+									<TreeViewItem.HeaderTemplate>
+										<DataTemplate>
+											<StackPanel Orientation="Horizontal">
+												<PathIcon Data="{StaticResource table_freeze_column_regular}" />
+												<TextBlock Text="Consultas" Margin="5,0,0,0"/>
+											</StackPanel>
+										</DataTemplate>
+									</TreeViewItem.HeaderTemplate>
+									<!-- Agrega más elementos si es necesario -->
+								</TreeViewItem>
+
+								<!-- Contenido de Tablas -->
+								<TreeViewItem Header="Tablas">
+									<TreeViewItem.HeaderTemplate>
+										<DataTemplate>
+											<StackPanel Orientation="Horizontal">
+												<CheckBox />
+												<PathIcon Data="{StaticResource text_add_space_before_regular}" />
+												<TextBlock Text="Tablas" Margin="5,0,0,0"/>
+											</StackPanel>
+										</DataTemplate>
+									</TreeViewItem.HeaderTemplate>
+									<TreeViewItem Header="Tablas">
+										<TreeViewItem.HeaderTemplate>
+											<DataTemplate>
+												<StackPanel Orientation="Horizontal">
+													<CheckBox />
+													<PathIcon Data="{StaticResource text_add_space_before_regular}" />
+													<TextBlock Text="CTA" Margin="5,0,0,0"/>
+												</StackPanel>
+											</DataTemplate>
+										</TreeViewItem.HeaderTemplate>
+										<!-- Agrega más elementos si es necesario -->
+									</TreeViewItem>
+								</TreeViewItem>
+
+							</TreeViewItem>
+						</TreeView>
+
+						<StackPanel Canvas.Bottom="0" Margin="0,100,0,50">
+							<TextBox AcceptsReturn="True" TextWrapping="Wrap" Width="200" Height="125"/>
+						</StackPanel>
+					</StackPanel>
+					
+				</SplitView.Pane>
+			
+				<SplitView.Content>
+					<Button Command="{Binding TriggerPaneCommand}"  >
+						<PathIcon Data="{StaticResource text_align_justify_regular}" />
+					</Button>
+				</SplitView.Content>
+
+
+		</SplitView>
+		
+	</Canvas>
+</Window>
