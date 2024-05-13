@@ -39,8 +39,7 @@ namespace AppMapa2.Views
 
             botonOculto = this.FindControl<Button>("botonOculto");
             _buttonStackPanel = this.FindControl<StackPanel>("buttonStackPanel");
-            _botonArriba = this.FindControl<Button>("botonArriba");
-            _botonArriba.Click += BotonArriba_Click;
+           
 
             _coordinatesTextBlock = this.FindControl<TextBlock>("CoordinatesTextBlock");
             // Mover la asignación del controlador de eventos después de InitializeComponent()
@@ -64,7 +63,7 @@ namespace AppMapa2.Views
             }
             else
             {
-                button.Background = Brushes.Transparent;
+                button.Background = Brushes.MediumPurple;
                 click = true;
             }
         }
