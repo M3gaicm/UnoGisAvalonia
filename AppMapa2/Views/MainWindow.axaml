@@ -18,7 +18,7 @@
 		<Style Selector="Window">
 			<Setter Property="Background">
 				<Setter.Value>
-					<ImageBrush Source="C:\Users\ivanc\source\repos\AppMapa2\Assets\mapa2.jpg"
+					<ImageBrush Source="C:\Users\Usuario\Desktop\InterfazUNOGIS\UnoGisAvalonia-main\AppMapa2\Assets\mapa2.jpg"
                                 Stretch="{Binding BackgroundStretch}" />
 				</Setter.Value>
 			</Setter>
@@ -29,8 +29,8 @@
 
 	<Canvas>
 		<Grid HorizontalAlignment="Stretch" RowDefinitions="*,0">
-			<StackPanel Grid.Column="0" Orientation="Horizontal" Margin="10,10,0,0" >
-					<TextBlock HorizontalAlignment="Center" VerticalAlignment="Center">LAPTOP-8347J38\ivan</TextBlock>
+			<StackPanel Background="MediumPurple" Grid.Column="0" Orientation="Horizontal" Margin="10,10,0,0" >
+					<TextBlock HorizontalAlignment="Center" VerticalAlignment="Center">LAPTOP-8769J54\Jorge</TextBlock>
 			
 			<ComboBox PlaceholderText="Español(España)" Margin="10,0,0,0" Background="Transparent">
 				<ComboBoxItem>català</ComboBoxItem>
@@ -58,7 +58,7 @@
 			
 
 		
-		<StackPanel Canvas.Top="30" Canvas.Right="20" >
+		<StackPanel Canvas.Top="30" Canvas.Right="20" Background="MediumPurple">
 			<TextBlock Name="CoordinatesTextBlock" HorizontalAlignment="Center" VerticalAlignment="Center"/>
 		</StackPanel>
 		<!-- Otras definiciones de filas y columnas aquí, si es necesario -->
@@ -67,7 +67,7 @@
 
 		<!-- Border con ScrollViewer para la vista 3 -->
 		<ScrollViewer MaxWidth="600" MaxHeight="350"
-                      HorizontalScrollBarVisibility="Auto" VerticalScrollBarVisibility="Auto"
+                      HorizontalScrollBarVisibility="Hidden" VerticalScrollBarVisibility="Hidden"
                       Canvas.Right="90" Canvas.Top="90">
 			<Border CornerRadius="12" Background="Transparent" Padding="5">
 				<StackPanel>
@@ -81,97 +81,105 @@
 		</ScrollViewer>
 
 		<StackPanel Canvas.Right="40" Canvas.Top="164">
-			<TextBlock Name="edicionInfo" Text="Edicion" IsVisible="False" />
+			<TextBlock Name="edicionInfo" IsVisible="False" />
 		</StackPanel>
 
 		<StackPanel Canvas.Right="40" Canvas.Top="208">
-			<TextBlock Name="cercadosInfo" Text="Cercados" IsVisible="False" />
+			<TextBlock Name="cercadosInfo" IsVisible="False" />
 		</StackPanel>
 		<StackPanel Canvas.Right="40" Canvas.Top="254">
-			<TextBlock Name="topologiaInfo" Text="Topologia" IsVisible="False" />
+			<TextBlock Name="topologiaInfo" IsVisible="False" />
 		</StackPanel>
 		<StackPanel Canvas.Right="40" Canvas.Top="300">
-			<TextBlock Name="geoprocesosInfo" Text="Geoprocesos" IsVisible="False" />
+			<TextBlock Name="geoprocesosInfo" IsVisible="False" />
 		</StackPanel>
 		<!-- Botones para cambiar la vista -->
-		<StackPanel Canvas.Right="10" Canvas.Top="100" Orientation="Vertical" Margin="0,0,20,0" >
-
-			<Button Name="botonArriba" Click="BotonArriba_Click">^</Button>
-			<Button Click="BotonMenos_Click">-</Button>
-
-		</StackPanel>
+		<ScrollViewer MaxWidth="600" MaxHeight="160"
+                      HorizontalScrollBarVisibility="Hidden" VerticalScrollBarVisibility="Hidden" 
+					  Canvas.Right="10" Canvas.Top="160">
+			
 		<StackPanel Canvas.Right="10" Canvas.Top="160" Orientation="Vertical" Margin="0,0,20,0" Name="buttonStackPanel">
-			<Button Name="edicion" Content="Edicion" Command="{Binding ShowView1Command}" PointerEntered="Button_PointerEntered" PointerExited="Button_PointerExited" Margin="0,0,0,20" Height="25" Width="30" Background="Transparent">
+			<Button Foreground="White" Background="MediumPurple" Opacity="1" CornerRadius="25" Name="edicion" Content="Edicion" Command="{Binding ShowView1Command}" PointerEntered="Button_PointerEntered" PointerExited="Button_PointerExited" Margin="0,0,0,20" Height="35" Width="35">
 				<PathIcon Data="{StaticResource edit_settings_regular}" />
 			</Button>
-			<Button Name="cercados" Content="Cercados" Command="{Binding ShowView2Command}" Margin="0,0,0,20" Height="25" Width="30" Background="Transparent"
+			<Button Foreground="White" Background="MediumPurple" Opacity="1" CornerRadius="25" Name="cercados" Content="Cercados" Command="{Binding ShowView2Command}" Margin="0,0,0,20" Height="35" Width="35"
 			PointerEntered="Button_PointerEntered" PointerExited="Button_PointerExited">
 				<PathIcon Data="{StaticResource walkie_talkie_regular}" />
 			</Button>
-			<Button Name="topologia" Content="Topología" Command="{Binding ShowView3Command}" Margin="0,0,0,20" Height="25" Width="30" Background="Transparent"
+			<Button Foreground="White" Background="MediumPurple" Opacity="1" CornerRadius="25" Name="topologia" Content="Topología" Command="{Binding ShowView3Command}" Margin="0,0,0,20" Height="35" Width="35"
 					PointerEntered="Button_PointerEntered" PointerExited="Button_PointerExited">
 				<PathIcon Data="{StaticResource map_regular}" />
 			</Button>
-			<Button Name="geoprocesos" Content="GeoProcesos" Command="{Binding ShowView4Command}" Margin="0,0,0,20" Height="25" Width="30" Background="Transparent"
+			<Button Foreground="White" Background="MediumPurple" Opacity="1" CornerRadius="25" Name="geoprocesos" Content="GeoProcesos" Command="{Binding ShowView4Command}" Margin="0,0,0,20" Height="35" Width="35"
 					PointerEntered="Button_PointerEntered" PointerExited="Button_PointerExited">
 				<PathIcon Data="{StaticResource circle_regular}" />
 			</Button>
 			<!-- <Button Content="Modelo Digital De Terreno" Command="{Binding ShowView5Command}" Margin="0,0,0,20" />-->
-			<Button Content="Stereo 3D" Command="{Binding ShowView6Command}"  Margin="0,0,0,20" Height="25" Width="30" Background="Transparent">
+			<Button Foreground="White" Background="MediumPurple" Opacity="1" CornerRadius="25" Content="Stereo 3D" Command="{Binding ShowView6Command}"  Margin="0,0,0,20" Height="35" Width="35">
 				<PathIcon Data="{StaticResource music_regular} "  />
 			</Button>
-			<Button Content="Configuracion" Command="{Binding ShowView7Command}" Margin="0,0,0,20" Height="25" Width="30" Background="Transparent">
+			<Button Foreground="White" Background="MediumPurple" Opacity="1" CornerRadius="25" Content="Configuracion" Command="{Binding ShowView7Command}" Margin="0,0,0,20" Height="35" Width="35">
 				<PathIcon Data="{StaticResource settings_regular}" />
 			</Button>
-			<Button Name="botonOculto" Content="Configuracion" Command="{Binding ShowView7Command}" Margin="0,0,0,20" Height="25" Width="30" Background="Transparent" IsVisible="False">
+			<Button Foreground="White" Background="MediumPurple" Opacity="1" CornerRadius="25" Name="botonOculto" Content="Configuracion" Command="{Binding ShowView7Command}" Margin="0,0,0,20" Height="35" Width="35" IsVisible="False">
 				<PathIcon Data="{StaticResource settings_regular}" />
 			</Button>
-			</StackPanel>
-
-		<StackPanel Canvas.Bottom="30" Canvas.Right="60" Orientation="Horizontal">
-		
+			<Button Foreground="White" Background="MediumPurple" Opacity="1" CornerRadius="25" Content="Configuracion" Command="{Binding ShowView7Command}" Margin="0,0,0,20" Height="35" Width="35">
+				<PathIcon Data="{StaticResource settings_regular}" />
+			</Button>
+			<Button Foreground="White" Background="MediumPurple" Opacity="1" CornerRadius="25" Content="Configuracion" Command="{Binding ShowView7Command}" Margin="0,0,0,20" Height="35" Width="35">
+				<PathIcon Data="{StaticResource settings_regular}" />
+			</Button>
 			
-			<ComboBox MaxWidth="200" x:Name="comboBox">
-				<ComboBoxItem Content="Datum 73/Modified Portuguese Grid"/>
-				<ComboBoxItem Content="EPSG:23031, ED50/UTM zone 31N "/>
-				<ComboBoxItem Content="EPSG:25830, ETRS89/ UTM zone 30N "/>
-				<ComboBoxItem Content="28N EPSG:3857, WGS 84/ Pseudo-Mercator"/>
-				<ComboBoxItem Content="EPSG:4326, WGS 84"/>
-				<ComboBoxItem Content="ESRI:102100, WGS_1984_Web_Mercator_Auxiliary_Spher"/>
-				<ComboBoxItem Content="EPSG:900913, Google Mercator"/>
-				
-			</ComboBox>
+		</StackPanel>
+	
+		</ScrollViewer>
 
-			<Button  Content="Editcion"   Click="changeCursorCroos" Margin="20,0,0,0" Height="25" Width="30" Background="Transparent">
+		
+		<StackPanel Canvas.Bottom="30" Canvas.Right="60" Orientation="Horizontal" Background="MediumPurple">
+
+			<Border CornerRadius="25" Background="MediumPurple" Padding="5">
+				<ComboBox MaxWidth="200" x:Name="comboBox" Margin="0 5 0 0">
+					<ComboBoxItem Content="Datum 73/Modified Portuguese Grid"/>
+					<ComboBoxItem Content="EPSG:23031, ED50/UTM zone 31N "/>
+					<ComboBoxItem Content="EPSG:25830, ETRS89/ UTM zone 30N "/>
+					<ComboBoxItem Content="28N EPSG:3857, WGS 84/ Pseudo-Mercator"/>
+					<ComboBoxItem Content="EPSG:4326, WGS 84"/>
+					<ComboBoxItem Content="ESRI:102100, WGS_1984_Web_Mercator_Auxiliary_Spher"/>
+					<ComboBoxItem Content="EPSG:900913, Google Mercator"/>
+
+				</ComboBox>
+			</Border>
+			<Button Foreground="White" Opacity="1" CornerRadius="25" Content="Editcion" Click="changeCursorCroos" Margin="20,0,0,0" Height="35" Width="35">
 				<PathIcon Data="{StaticResource globe_desktop_regular}" />
 			</Button>
 			<Rectangle Width="2" Height="40" Fill="Gray" Margin="5 0"/>
-			<Button  Content="Editcion"   Click="changeCursorCroos" Margin="0,0,0,0" Height="25" Width="30" Background="Transparent">
+			<Button Foreground="White" Opacity="1" CornerRadius="25" Content="Editcion"   Click="changeCursorCroos" Margin="0,0,0,0" Height="35" Width="35">
 				<PathIcon Data="{StaticResource cursor_regular}" />
 			</Button>
-			<Button Content="Cercados"   Click="changeCursorHand" Margin="20,0,0,0" Height="25" Width="30" Background="Transparent">
+			<Button Foreground="White" Opacity="1" CornerRadius="25" Content="Cercados" Click="changeCursorHand" Margin="20,0,0,0" Height="35" Width="35">
 				<PathIcon Data="{StaticResource hand_raise_regular}" />
 			</Button>
-			<Button  Content="Topologia" Command="{Binding ShowView3Command}" Margin="20,0,0,0" Height="25" Width="30" Background="Transparent">
+			<Button Foreground="White" Opacity="1" CornerRadius="25" Content="Topologia" Command="{Binding ShowView3Command}" Margin="20,0,0,0" Height="35" Width="35">
 				<PathIcon Data="{StaticResource dual_screen_desktop_regular}" />
 			</Button>
-			<Button Content="GeoProcesos" Command="{Binding ShowView4Command}" Margin="20,0,0,0" Height="25" Width="30" Background="Transparent">
+			<Button Foreground="White" Opacity="1" CornerRadius="25" Content="GeoProcesos" Command="{Binding ShowView4Command}" Margin="20,0,0,0" Height="35" Width="35">
 				<PathIcon Data="{StaticResource zoom_out_regular}" />
 			</Button>
 			<!-- <Button Content="Modelo Digital De Terreno" Command="{Binding ShowView5Command}" Margin="0,0,0,20" />-->
-			<Button Content="Stereo 3D" Command="{Binding ShowView6Command}"  Margin="20,0,0,0" Height="25" Width="30" Background="Transparent">
+			<Button Foreground="White" Opacity="1" CornerRadius="25" Content="Stereo 3D" Command="{Binding ShowView6Command}"  Margin="20,0,0,0" Height="35" Width="35">
 				<PathIcon Data="{StaticResource zoom_in_regular} "  />
 			</Button>
-			<Button Content="Configuracion" Click="changeCursorZoom" Margin="20,0,0,0" Height="25" Width="30" Background="Transparent">
+			<Button Foreground="White" Opacity="1" CornerRadius="25" Content="Configuracion" Click="changeCursorZoom" Margin="20,0,0,0" Height="35" Width="35">
 				<PathIcon Data="{StaticResource document_search_regular}" />
 			</Button>
-			<Button Content="Configuracion" Command="{Binding ShowView7Command}" Margin="20,0,0,0" Height="25" Width="30" Background="Transparent">
+			<Button Foreground="White" Opacity="1" CornerRadius="25" Content="Configuracion" Command="{Binding ShowView7Command}" Margin="20,0,0,0" Height="35" Width="35">
 				<PathIcon Data="{StaticResource arrow_rotate_clockwise_regular}" />
 			</Button>
-			<Button Content="Configuracion" Command="{Binding ShowView7Command}" Margin="20,0,0,0" Height="25" Width="30" Background="Transparent">
+			<Button Foreground="White" Opacity="1" CornerRadius="25" Content="Configuracion" Command="{Binding ShowView7Command}" Margin="20,0,0,0" Height="35" Width="35">
 				<PathIcon Data="{StaticResource arrow_reply_regular}" />
 			</Button>
-			<Button Content="Configuracion" Click="abrirVentanaCalendario" Margin="20,0,0,0" Height="25" Width="30" Background="Transparent">
+			<Button Foreground="White" Opacity="1" CornerRadius="25" Content="Configuracion" Click="abrirVentanaCalendario" Margin="20,0,0,0" Height="35" Width="35">
 				<PathIcon Data="{StaticResource calendar_add_regular}" />
 			</Button>
 

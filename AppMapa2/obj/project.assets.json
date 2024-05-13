@@ -4999,23 +4999,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\ivanc\\.nuget\\packages\\": {},
+    "C:\\Users\\Usuario\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ivanc\\source\\repos\\AppMapa2\\AppMapa2.csproj",
+      "projectUniqueName": "C:\\Users\\Usuario\\Desktop\\InterfazUNOGIS\\UnoGisAvalonia-main\\AppMapa2\\AppMapa2.csproj",
       "projectName": "AppMapa2",
-      "projectPath": "C:\\Users\\ivanc\\source\\repos\\AppMapa2\\AppMapa2.csproj",
-      "packagesPath": "C:\\Users\\ivanc\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ivanc\\source\\repos\\AppMapa2\\obj\\",
+      "projectPath": "C:\\Users\\Usuario\\Desktop\\InterfazUNOGIS\\UnoGisAvalonia-main\\AppMapa2\\AppMapa2.csproj",
+      "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Usuario\\Desktop\\InterfazUNOGIS\\UnoGisAvalonia-main\\AppMapa2\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\ivanc\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -5024,6 +5024,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
