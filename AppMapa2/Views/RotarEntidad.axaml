@@ -1,0 +1,18 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="400" d:DesignHeight="250"
+        x:Class="AppMapa2.Views.RotarEntidad"
+        Title="InsertarEntidad"
+        Width="300" Height="200">
+	<StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+
+	
+		<Label Target="upDown" FontSize="14" FontWeight="Bold" VerticalAlignment="Center">Ángulo:</Label>
+		<NumericUpDown Name="upDown" Minimum="0" Maximum="10" Increment="0.5"
+                       VerticalAlignment="Center"
+                       Watermark="Enter text"/>
+		<CheckBox>Libre</CheckBox>
+	</StackPanel>
+</Window>
