@@ -1,25 +1,25 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Usuario\\Desktop\\UnoGISComun\\UnoGisAvalonia\\UnoGisAvalonia\\AppMapa2\\",
+  "WorkspaceRootPath": "C:\\Users\\Usuario\\Desktop\\UnoGISComun\\UnoGisAvalonia\\AppMapa2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{26EA2379-B8F7-4E59-862C-397CEA5515A6}|AppMapa2.csproj|c:\\users\\usuario\\desktop\\unogiscomun\\unogisavalonia\\unogisavalonia\\appmapa2\\viewlocator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{26EA2379-B8F7-4E59-862C-397CEA5515A6}|AppMapa2.csproj|solutionrelative:viewlocator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{26EA2379-B8F7-4E59-862C-397CEA5515A6}|AppMapa2.csproj|c:\\users\\usuario\\desktop\\unogiscomun\\unogisavalonia\\unogisavalonia\\appmapa2\\styles1.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
-      "RelativeMoniker": "D:0:0:{26EA2379-B8F7-4E59-862C-397CEA5515A6}|AppMapa2.csproj|solutionrelative:styles1.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{26EA2379-B8F7-4E59-862C-397CEA5515A6}|AppMapa2.csproj|c:\\users\\usuario\\desktop\\unogiscomun\\unogisavalonia\\unogisavalonia\\appmapa2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{26EA2379-B8F7-4E59-862C-397CEA5515A6}|AppMapa2.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{26EA2379-B8F7-4E59-862C-397CEA5515A6}|AppMapa2.csproj|c:\\users\\usuario\\desktop\\unogiscomun\\unogisavalonia\\unogisavalonia\\appmapa2\\views\\mainwindow.axaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "AbsoluteMoniker": "D:0:0:{26EA2379-B8F7-4E59-862C-397CEA5515A6}|AppMapa2.csproj|c:\\users\\usuario\\desktop\\unogiscomun\\unogisavalonia\\appmapa2\\views\\mainwindow.axaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
       "RelativeMoniker": "D:0:0:{26EA2379-B8F7-4E59-862C-397CEA5515A6}|AppMapa2.csproj|solutionrelative:views\\mainwindow.axaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{26EA2379-B8F7-4E59-862C-397CEA5515A6}|AppMapa2.csproj|c:\\users\\usuario\\desktop\\unogiscomun\\unogisavalonia\\unogisavalonia\\appmapa2\\views\\mainwindow.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{26EA2379-B8F7-4E59-862C-397CEA5515A6}|AppMapa2.csproj|c:\\users\\usuario\\desktop\\unogiscomun\\unogisavalonia\\appmapa2\\viewlocator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26EA2379-B8F7-4E59-862C-397CEA5515A6}|AppMapa2.csproj|solutionrelative:viewlocator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26EA2379-B8F7-4E59-862C-397CEA5515A6}|AppMapa2.csproj|c:\\users\\usuario\\desktop\\unogiscomun\\unogisavalonia\\appmapa2\\styles1.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
+      "RelativeMoniker": "D:0:0:{26EA2379-B8F7-4E59-862C-397CEA5515A6}|AppMapa2.csproj|solutionrelative:styles1.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26EA2379-B8F7-4E59-862C-397CEA5515A6}|AppMapa2.csproj|c:\\users\\usuario\\desktop\\unogiscomun\\unogisavalonia\\appmapa2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26EA2379-B8F7-4E59-862C-397CEA5515A6}|AppMapa2.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26EA2379-B8F7-4E59-862C-397CEA5515A6}|AppMapa2.csproj|c:\\users\\usuario\\desktop\\unogiscomun\\unogisavalonia\\appmapa2\\views\\mainwindow.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{26EA2379-B8F7-4E59-862C-397CEA5515A6}|AppMapa2.csproj|solutionrelative:views\\mainwindow.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -30,17 +30,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "MainWindow.axaml",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\UnoGISComun\\UnoGisAvalonia\\UnoGisAvalonia\\AppMapa2\\Views\\MainWindow.axaml",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\UnoGISComun\\UnoGisAvalonia\\AppMapa2\\Views\\MainWindow.axaml",
               "RelativeDocumentMoniker": "Views\\MainWindow.axaml",
-              "ToolTip": "C:\\Users\\Usuario\\Desktop\\UnoGISComun\\UnoGisAvalonia\\UnoGisAvalonia\\AppMapa2\\Views\\MainWindow.axaml",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\UnoGISComun\\UnoGisAvalonia\\AppMapa2\\Views\\MainWindow.axaml",
               "RelativeToolTip": "Views\\MainWindow.axaml",
-              "ViewState": "AQIAAAsBAAAAAAAAAAAAABkBAAAFAAAA",
+              "ViewState": "AQIAAFEAAAAAAAAAAAAAABkBAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2024-05-09T07:55:49.947Z",
               "IsPinned": true,
@@ -52,11 +52,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "ViewLocator.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\UnoGISComun\\UnoGisAvalonia\\UnoGisAvalonia\\AppMapa2\\ViewLocator.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\UnoGISComun\\UnoGisAvalonia\\AppMapa2\\ViewLocator.cs",
               "RelativeDocumentMoniker": "ViewLocator.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Desktop\\UnoGISComun\\UnoGisAvalonia\\UnoGisAvalonia\\AppMapa2\\ViewLocator.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\UnoGISComun\\UnoGisAvalonia\\AppMapa2\\ViewLocator.cs",
               "RelativeToolTip": "ViewLocator.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -65,11 +65,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Styles1.axaml",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\UnoGISComun\\UnoGisAvalonia\\UnoGisAvalonia\\AppMapa2\\Styles1.axaml",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\UnoGISComun\\UnoGisAvalonia\\AppMapa2\\Styles1.axaml",
               "RelativeDocumentMoniker": "Styles1.axaml",
-              "ToolTip": "C:\\Users\\Usuario\\Desktop\\UnoGISComun\\UnoGisAvalonia\\UnoGisAvalonia\\AppMapa2\\Styles1.axaml",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\UnoGISComun\\UnoGisAvalonia\\AppMapa2\\Styles1.axaml",
               "RelativeToolTip": "Styles1.axaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2024-05-13T11:36:58.857Z",
@@ -77,11 +77,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\UnoGISComun\\UnoGisAvalonia\\UnoGisAvalonia\\AppMapa2\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\UnoGISComun\\UnoGisAvalonia\\AppMapa2\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Desktop\\UnoGISComun\\UnoGisAvalonia\\UnoGisAvalonia\\AppMapa2\\Program.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\UnoGISComun\\UnoGisAvalonia\\AppMapa2\\Program.cs",
               "RelativeToolTip": "Program.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -92,9 +92,9 @@
               "$type": "Document",
               "DocumentIndex": 4,
               "Title": "MainWindow.axaml.cs",
-              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\UnoGISComun\\UnoGisAvalonia\\UnoGisAvalonia\\AppMapa2\\Views\\MainWindow.axaml.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\UnoGISComun\\UnoGisAvalonia\\AppMapa2\\Views\\MainWindow.axaml.cs",
               "RelativeDocumentMoniker": "Views\\MainWindow.axaml.cs",
-              "ToolTip": "C:\\Users\\Usuario\\Desktop\\UnoGISComun\\UnoGisAvalonia\\UnoGisAvalonia\\AppMapa2\\Views\\MainWindow.axaml.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\UnoGISComun\\UnoGisAvalonia\\AppMapa2\\Views\\MainWindow.axaml.cs",
               "RelativeToolTip": "Views\\MainWindow.axaml.cs",
               "ViewState": "AQIAACYAAAAAAAAAAAAgwEEAAAAxAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",

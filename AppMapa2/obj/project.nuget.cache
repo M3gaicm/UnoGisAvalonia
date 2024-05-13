@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "jPG9+q4fj156l+vA2n1qKgaV3x+pPWfgEEmUwQaMbYoAuzuwbR+EaZ/lfRtLz6QIrK/bb0D3I5+DS3MZ407ESg==",
+  "dgSpecHash": "xwKUlJEAz854y0gCu6jzeR5Gztta/PHTiQCuRGE+wrnA/F8Q4DhT//piGuxmPQ4oWKTRPOQR06IdvcOtoOvefA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Usuario\\Desktop\\UnoGISComun\\UnoGisAvalonia\\UnoGisAvalonia\\AppMapa2\\AppMapa2.csproj",
+  "projectFilePath": "C:\\Users\\Usuario\\Desktop\\UnoGISComun\\UnoGisAvalonia\\AppMapa2\\AppMapa2.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Usuario\\.nuget\\packages\\aurautilities\\0.1.5.5\\aurautilities.0.1.5.5.nupkg.sha512",
     "C:\\Users\\Usuario\\.nuget\\packages\\avalonia\\11.0.10\\avalonia.11.0.10.nupkg.sha512",
