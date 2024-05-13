@@ -5,7 +5,7 @@
              mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
              x:Class="AppMapa2.Views.ButtonPageView">
 
-	<Border Background="Black" CornerRadius="10">
+	<Border Background="#3f3f5a" CornerRadius="10">
 		<Grid>
 		<Grid.RowDefinitions>
 			<!-- Definir dos filas -->

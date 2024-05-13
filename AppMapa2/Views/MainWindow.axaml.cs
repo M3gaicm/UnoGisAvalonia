@@ -9,9 +9,11 @@ using ExCSS;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
+using System.Drawing;
 using System.Linq;
 using Point = Avalonia.Point;
-
+using Avalonia.Media;
+using Avalonia.Markup.Xaml.Converters;
 
 namespace AppMapa2.Views
 {
@@ -37,7 +39,6 @@ namespace AppMapa2.Views
         {
             AvaloniaXamlLoader.Load(this);
 
-            botonOculto = this.FindControl<Button>("botonOculto");
             _buttonStackPanel = this.FindControl<StackPanel>("buttonStackPanel");
            
 
@@ -58,12 +59,12 @@ namespace AppMapa2.Views
             var button = (Button)sender;
             if (click)
             {
-                button.Background = Brushes.Gray;
+                button.Background = new SolidColorBrush(Avalonia.Media.Color.Parse("#3c5ddb"));
                 click = false;
             }
             else
             {
-                button.Background = Brushes.MediumPurple;
+                button.Background = new SolidColorBrush(Avalonia.Media.Color.Parse("#3f3f5a"));
                 click = true;
             }
         }
@@ -134,7 +135,6 @@ namespace AppMapa2.Views
         private void BotonArriba_Click(object sender, RoutedEventArgs e)
         {
             // Obtener todos los botones visibles
-            botonOculto.IsVisible = true;
             edicion.IsVisible = false;
                 // Si hay más de un botón visible, mostrar el botón oculto
                
@@ -145,7 +145,6 @@ namespace AppMapa2.Views
         private void BotonMenos_Click(object sender, RoutedEventArgs e)
         {
             // Si el botón oculto está visible
-            botonOculto.IsVisible = false;
             edicion.IsVisible = true;
         }
 

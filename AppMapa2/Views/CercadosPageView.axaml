@@ -6,7 +6,7 @@
              x:Class="AppMapa2.Views.CercadosPageView">
 
 
-	<Border Background="Black" CornerRadius="10">
+	<Border Background="#3f3f5a" CornerRadius="10">
 		<Grid>
 			<Grid.RowDefinitions>
 				<!-- Definir dos filas -->
