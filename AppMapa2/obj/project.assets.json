@@ -5005,11 +5005,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Usuario\\Desktop\\UnoGISComun\\UnoGisAvalonia\\UnoGisAvalonia\\AppMapa2\\AppMapa2.csproj",
+      "projectUniqueName": "C:\\Users\\Usuario\\Desktop\\UnoGISComun\\UnoGisAvalonia\\AppMapa2\\AppMapa2.csproj",
       "projectName": "AppMapa2",
-      "projectPath": "C:\\Users\\Usuario\\Desktop\\UnoGISComun\\UnoGisAvalonia\\UnoGisAvalonia\\AppMapa2\\AppMapa2.csproj",
+      "projectPath": "C:\\Users\\Usuario\\Desktop\\UnoGISComun\\UnoGisAvalonia\\AppMapa2\\AppMapa2.csproj",
       "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Usuario\\Desktop\\UnoGISComun\\UnoGisAvalonia\\UnoGisAvalonia\\AppMapa2\\obj\\",
+      "outputPath": "C:\\Users\\Usuario\\Desktop\\UnoGISComun\\UnoGisAvalonia\\AppMapa2\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
