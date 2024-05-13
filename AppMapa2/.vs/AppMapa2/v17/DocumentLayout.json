@@ -1,62 +1,26 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\ivanc\\Desktop\\ReposirorioGit\\UnoGisAvalonia\\UnoGisAvalonia\\AppMapa2\\",
+  "WorkspaceRootPath": "C:\\Users\\Usuario\\Desktop\\UnoGISComun\\UnoGisAvalonia\\UnoGisAvalonia\\AppMapa2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{26EA2379-B8F7-4E59-862C-397CEA5515A6}|AppMapa2.csproj|c:\\users\\ivanc\\desktop\\reposiroriogit\\unogisavalonia\\unogisavalonia\\appmapa2\\views\\mainwindow.axaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{26EA2379-B8F7-4E59-862C-397CEA5515A6}|AppMapa2.csproj|solutionrelative:views\\mainwindow.axaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{26EA2379-B8F7-4E59-862C-397CEA5515A6}|AppMapa2.csproj|c:\\users\\ivanc\\desktop\\reposiroriogit\\unogisavalonia\\unogisavalonia\\appmapa2\\views\\topologiapageview.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
-      "RelativeMoniker": "D:0:0:{26EA2379-B8F7-4E59-862C-397CEA5515A6}|AppMapa2.csproj|solutionrelative:views\\topologiapageview.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{26EA2379-B8F7-4E59-862C-397CEA5515A6}|AppMapa2.csproj|c:\\users\\ivanc\\desktop\\reposiroriogit\\unogisavalonia\\unogisavalonia\\appmapa2\\views\\rotarentidad.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
-      "RelativeMoniker": "D:0:0:{26EA2379-B8F7-4E59-862C-397CEA5515A6}|AppMapa2.csproj|solutionrelative:views\\rotarentidad.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{26EA2379-B8F7-4E59-862C-397CEA5515A6}|AppMapa2.csproj|c:\\users\\ivanc\\desktop\\reposiroriogit\\unogisavalonia\\unogisavalonia\\appmapa2\\views\\moverentidad.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
-      "RelativeMoniker": "D:0:0:{26EA2379-B8F7-4E59-862C-397CEA5515A6}|AppMapa2.csproj|solutionrelative:views\\moverentidad.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{26EA2379-B8F7-4E59-862C-397CEA5515A6}|AppMapa2.csproj|c:\\users\\ivanc\\desktop\\reposiroriogit\\unogisavalonia\\unogisavalonia\\appmapa2\\views\\mainwindow.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{26EA2379-B8F7-4E59-862C-397CEA5515A6}|AppMapa2.csproj|solutionrelative:views\\mainwindow.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{26EA2379-B8F7-4E59-862C-397CEA5515A6}|AppMapa2.csproj|c:\\users\\ivanc\\desktop\\reposiroriogit\\unogisavalonia\\unogisavalonia\\appmapa2\\views\\pruebacuatropageview.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
-      "RelativeMoniker": "D:0:0:{26EA2379-B8F7-4E59-862C-397CEA5515A6}|AppMapa2.csproj|solutionrelative:views\\pruebacuatropageview.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{26EA2379-B8F7-4E59-862C-397CEA5515A6}|AppMapa2.csproj|c:\\users\\ivanc\\desktop\\reposiroriogit\\unogisavalonia\\unogisavalonia\\appmapa2\\views\\cercado.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
-      "RelativeMoniker": "D:0:0:{26EA2379-B8F7-4E59-862C-397CEA5515A6}|AppMapa2.csproj|solutionrelative:views\\cercado.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{26EA2379-B8F7-4E59-862C-397CEA5515A6}|AppMapa2.csproj|c:\\users\\ivanc\\desktop\\reposiroriogit\\unogisavalonia\\unogisavalonia\\appmapa2\\views\\calendario.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
-      "RelativeMoniker": "D:0:0:{26EA2379-B8F7-4E59-862C-397CEA5515A6}|AppMapa2.csproj|solutionrelative:views\\calendario.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{26EA2379-B8F7-4E59-862C-397CEA5515A6}|AppMapa2.csproj|c:\\users\\ivanc\\desktop\\reposiroriogit\\unogisavalonia\\unogisavalonia\\appmapa2\\views\\cercadospageview.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
-      "RelativeMoniker": "D:0:0:{26EA2379-B8F7-4E59-862C-397CEA5515A6}|AppMapa2.csproj|solutionrelative:views\\cercadospageview.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{26EA2379-B8F7-4E59-862C-397CEA5515A6}|AppMapa2.csproj|c:\\users\\ivanc\\desktop\\reposiroriogit\\unogisavalonia\\unogisavalonia\\appmapa2\\views\\buttonpageview.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
-      "RelativeMoniker": "D:0:0:{26EA2379-B8F7-4E59-862C-397CEA5515A6}|AppMapa2.csproj|solutionrelative:views\\buttonpageview.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{26EA2379-B8F7-4E59-862C-397CEA5515A6}|AppMapa2.csproj|c:\\users\\ivanc\\desktop\\reposiroriogit\\unogisavalonia\\unogisavalonia\\appmapa2\\views\\buttonpageview.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{26EA2379-B8F7-4E59-862C-397CEA5515A6}|AppMapa2.csproj|solutionrelative:views\\buttonpageview.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{26EA2379-B8F7-4E59-862C-397CEA5515A6}|AppMapa2.csproj|c:\\users\\ivanc\\desktop\\reposiroriogit\\unogisavalonia\\unogisavalonia\\appmapa2\\viewlocator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{26EA2379-B8F7-4E59-862C-397CEA5515A6}|AppMapa2.csproj|c:\\users\\usuario\\desktop\\unogiscomun\\unogisavalonia\\unogisavalonia\\appmapa2\\viewlocator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{26EA2379-B8F7-4E59-862C-397CEA5515A6}|AppMapa2.csproj|solutionrelative:viewlocator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{26EA2379-B8F7-4E59-862C-397CEA5515A6}|AppMapa2.csproj|c:\\users\\ivanc\\desktop\\reposiroriogit\\unogisavalonia\\unogisavalonia\\appmapa2\\styles1.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
+      "AbsoluteMoniker": "D:0:0:{26EA2379-B8F7-4E59-862C-397CEA5515A6}|AppMapa2.csproj|c:\\users\\usuario\\desktop\\unogiscomun\\unogisavalonia\\unogisavalonia\\appmapa2\\styles1.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
       "RelativeMoniker": "D:0:0:{26EA2379-B8F7-4E59-862C-397CEA5515A6}|AppMapa2.csproj|solutionrelative:styles1.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{26EA2379-B8F7-4E59-862C-397CEA5515A6}|AppMapa2.csproj|c:\\users\\ivanc\\desktop\\reposiroriogit\\unogisavalonia\\unogisavalonia\\appmapa2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{26EA2379-B8F7-4E59-862C-397CEA5515A6}|AppMapa2.csproj|c:\\users\\usuario\\desktop\\unogiscomun\\unogisavalonia\\unogisavalonia\\appmapa2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{26EA2379-B8F7-4E59-862C-397CEA5515A6}|AppMapa2.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26EA2379-B8F7-4E59-862C-397CEA5515A6}|AppMapa2.csproj|c:\\users\\usuario\\desktop\\unogiscomun\\unogisavalonia\\unogisavalonia\\appmapa2\\views\\mainwindow.axaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{26EA2379-B8F7-4E59-862C-397CEA5515A6}|AppMapa2.csproj|solutionrelative:views\\mainwindow.axaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{26EA2379-B8F7-4E59-862C-397CEA5515A6}|AppMapa2.csproj|c:\\users\\usuario\\desktop\\unogiscomun\\unogisavalonia\\unogisavalonia\\appmapa2\\views\\mainwindow.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{26EA2379-B8F7-4E59-862C-397CEA5515A6}|AppMapa2.csproj|solutionrelative:views\\mainwindow.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -69,186 +33,72 @@
           "SelectedChildIndex": 2,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "MainWindow.axaml",
-              "DocumentMoniker": "C:\\Users\\ivanc\\Desktop\\ReposirorioGit\\UnoGisAvalonia\\UnoGisAvalonia\\AppMapa2\\Views\\MainWindow.axaml",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\UnoGISComun\\UnoGisAvalonia\\UnoGisAvalonia\\AppMapa2\\Views\\MainWindow.axaml",
               "RelativeDocumentMoniker": "Views\\MainWindow.axaml",
-              "ToolTip": "C:\\Users\\ivanc\\Desktop\\ReposirorioGit\\UnoGisAvalonia\\UnoGisAvalonia\\AppMapa2\\Views\\MainWindow.axaml",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\UnoGISComun\\UnoGisAvalonia\\UnoGisAvalonia\\AppMapa2\\Views\\MainWindow.axaml",
               "RelativeToolTip": "Views\\MainWindow.axaml",
-              "ViewState": "AQIAAI8AAAAAAAAAAAAlwKoAAAAMAAAA",
+              "ViewState": "AQIAAAsBAAAAAAAAAAAAABkBAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2024-05-09T07:55:49.947Z",
               "IsPinned": true,
               "EditorCaption": ""
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "PruebaCuatroPageView.axaml",
-              "DocumentMoniker": "C:\\Users\\ivanc\\Desktop\\ReposirorioGit\\UnoGisAvalonia\\UnoGisAvalonia\\AppMapa2\\Views\\PruebaCuatroPageView.axaml",
-              "RelativeDocumentMoniker": "Views\\PruebaCuatroPageView.axaml",
-              "ToolTip": "C:\\Users\\ivanc\\Desktop\\ReposirorioGit\\UnoGisAvalonia\\UnoGisAvalonia\\AppMapa2\\Views\\PruebaCuatroPageView.axaml",
-              "RelativeToolTip": "Views\\PruebaCuatroPageView.axaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-05-13T11:25:50.265Z",
+              "DocumentIndex": 0,
+              "Title": "ViewLocator.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\UnoGISComun\\UnoGisAvalonia\\UnoGisAvalonia\\AppMapa2\\ViewLocator.cs",
+              "RelativeDocumentMoniker": "ViewLocator.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\UnoGISComun\\UnoGisAvalonia\\UnoGisAvalonia\\AppMapa2\\ViewLocator.cs",
+              "RelativeToolTip": "ViewLocator.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-13T11:36:58.874Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "TopologiaPageView.axaml",
-              "DocumentMoniker": "C:\\Users\\ivanc\\Desktop\\ReposirorioGit\\UnoGisAvalonia\\UnoGisAvalonia\\AppMapa2\\Views\\TopologiaPageView.axaml",
-              "RelativeDocumentMoniker": "Views\\TopologiaPageView.axaml",
-              "ToolTip": "C:\\Users\\ivanc\\Desktop\\ReposirorioGit\\UnoGisAvalonia\\UnoGisAvalonia\\AppMapa2\\Views\\TopologiaPageView.axaml",
-              "RelativeToolTip": "Views\\TopologiaPageView.axaml",
+              "Title": "Styles1.axaml",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\UnoGISComun\\UnoGisAvalonia\\UnoGisAvalonia\\AppMapa2\\Styles1.axaml",
+              "RelativeDocumentMoniker": "Styles1.axaml",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\UnoGISComun\\UnoGisAvalonia\\UnoGisAvalonia\\AppMapa2\\Styles1.axaml",
+              "RelativeToolTip": "Styles1.axaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-05-13T11:25:45.848Z",
+              "WhenOpened": "2024-05-13T11:36:58.857Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "RotarEntidad.axaml",
-              "DocumentMoniker": "C:\\Users\\ivanc\\Desktop\\ReposirorioGit\\UnoGisAvalonia\\UnoGisAvalonia\\AppMapa2\\Views\\RotarEntidad.axaml",
-              "RelativeDocumentMoniker": "Views\\RotarEntidad.axaml",
-              "ToolTip": "C:\\Users\\ivanc\\Desktop\\ReposirorioGit\\UnoGisAvalonia\\UnoGisAvalonia\\AppMapa2\\Views\\RotarEntidad.axaml",
-              "RelativeToolTip": "Views\\RotarEntidad.axaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-05-13T11:25:45.113Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Cercado.axaml",
-              "DocumentMoniker": "C:\\Users\\ivanc\\Desktop\\ReposirorioGit\\UnoGisAvalonia\\UnoGisAvalonia\\AppMapa2\\Views\\Cercado.axaml",
-              "RelativeDocumentMoniker": "Views\\Cercado.axaml",
-              "ToolTip": "C:\\Users\\ivanc\\Desktop\\ReposirorioGit\\UnoGisAvalonia\\UnoGisAvalonia\\AppMapa2\\Views\\Cercado.axaml",
-              "RelativeToolTip": "Views\\Cercado.axaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-05-13T11:25:30.249Z",
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\UnoGISComun\\UnoGisAvalonia\\UnoGisAvalonia\\AppMapa2\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\UnoGISComun\\UnoGisAvalonia\\UnoGisAvalonia\\AppMapa2\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-13T11:36:58.806Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
               "Title": "MainWindow.axaml.cs",
-              "DocumentMoniker": "C:\\Users\\ivanc\\Desktop\\ReposirorioGit\\UnoGisAvalonia\\UnoGisAvalonia\\AppMapa2\\Views\\MainWindow.axaml.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\UnoGISComun\\UnoGisAvalonia\\UnoGisAvalonia\\AppMapa2\\Views\\MainWindow.axaml.cs",
               "RelativeDocumentMoniker": "Views\\MainWindow.axaml.cs",
-              "ToolTip": "C:\\Users\\ivanc\\Desktop\\ReposirorioGit\\UnoGisAvalonia\\UnoGisAvalonia\\AppMapa2\\Views\\MainWindow.axaml.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\UnoGISComun\\UnoGisAvalonia\\UnoGisAvalonia\\AppMapa2\\Views\\MainWindow.axaml.cs",
               "RelativeToolTip": "Views\\MainWindow.axaml.cs",
-              "ViewState": "AQIAACUAAAAAAAAAAAAiwEIAAABVAAAA",
+              "ViewState": "AQIAACYAAAAAAAAAAAAgwEEAAAAxAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-13T11:17:11.482Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "MoverEntidad.axaml",
-              "DocumentMoniker": "C:\\Users\\ivanc\\Desktop\\ReposirorioGit\\UnoGisAvalonia\\UnoGisAvalonia\\AppMapa2\\Views\\MoverEntidad.axaml",
-              "RelativeDocumentMoniker": "Views\\MoverEntidad.axaml",
-              "ToolTip": "C:\\Users\\ivanc\\Desktop\\ReposirorioGit\\UnoGisAvalonia\\UnoGisAvalonia\\AppMapa2\\Views\\MoverEntidad.axaml",
-              "RelativeToolTip": "Views\\MoverEntidad.axaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-05-13T11:25:26.332Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Calendario.axaml",
-              "DocumentMoniker": "C:\\Users\\ivanc\\Desktop\\ReposirorioGit\\UnoGisAvalonia\\UnoGisAvalonia\\AppMapa2\\Views\\Calendario.axaml",
-              "RelativeDocumentMoniker": "Views\\Calendario.axaml",
-              "ToolTip": "C:\\Users\\ivanc\\Desktop\\ReposirorioGit\\UnoGisAvalonia\\UnoGisAvalonia\\AppMapa2\\Views\\Calendario.axaml",
-              "RelativeToolTip": "Views\\Calendario.axaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-05-13T11:25:42.037Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "CercadosPageView.axaml",
-              "DocumentMoniker": "C:\\Users\\ivanc\\Desktop\\ReposirorioGit\\UnoGisAvalonia\\UnoGisAvalonia\\AppMapa2\\Views\\CercadosPageView.axaml",
-              "RelativeDocumentMoniker": "Views\\CercadosPageView.axaml",
-              "ToolTip": "C:\\Users\\ivanc\\Desktop\\ReposirorioGit\\UnoGisAvalonia\\UnoGisAvalonia\\AppMapa2\\Views\\CercadosPageView.axaml",
-              "RelativeToolTip": "Views\\CercadosPageView.axaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-05-13T11:25:34.868Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "ButtonPageView.axaml.cs",
-              "DocumentMoniker": "C:\\Users\\ivanc\\Desktop\\ReposirorioGit\\UnoGisAvalonia\\UnoGisAvalonia\\AppMapa2\\Views\\ButtonPageView.axaml.cs",
-              "RelativeDocumentMoniker": "Views\\ButtonPageView.axaml.cs",
-              "ToolTip": "C:\\Users\\ivanc\\Desktop\\ReposirorioGit\\UnoGisAvalonia\\UnoGisAvalonia\\AppMapa2\\Views\\ButtonPageView.axaml.cs",
-              "RelativeToolTip": "Views\\ButtonPageView.axaml.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-13T10:57:05.859Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "ButtonPageView.axaml",
-              "DocumentMoniker": "C:\\Users\\ivanc\\Desktop\\ReposirorioGit\\UnoGisAvalonia\\UnoGisAvalonia\\AppMapa2\\Views\\ButtonPageView.axaml",
-              "RelativeDocumentMoniker": "Views\\ButtonPageView.axaml",
-              "ToolTip": "C:\\Users\\ivanc\\Desktop\\ReposirorioGit\\UnoGisAvalonia\\UnoGisAvalonia\\AppMapa2\\Views\\ButtonPageView.axaml",
-              "RelativeToolTip": "Views\\ButtonPageView.axaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-05-13T10:45:55.94Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "ViewLocator.cs",
-              "DocumentMoniker": "C:\\Users\\ivanc\\Desktop\\ReposirorioGit\\UnoGisAvalonia\\UnoGisAvalonia\\AppMapa2\\ViewLocator.cs",
-              "RelativeDocumentMoniker": "ViewLocator.cs",
-              "ToolTip": "C:\\Users\\ivanc\\Desktop\\ReposirorioGit\\UnoGisAvalonia\\UnoGisAvalonia\\AppMapa2\\ViewLocator.cs",
-              "RelativeToolTip": "ViewLocator.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-13T10:25:07.495Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Styles1.axaml",
-              "DocumentMoniker": "C:\\Users\\ivanc\\Desktop\\ReposirorioGit\\UnoGisAvalonia\\UnoGisAvalonia\\AppMapa2\\Styles1.axaml",
-              "RelativeDocumentMoniker": "Styles1.axaml",
-              "ToolTip": "C:\\Users\\ivanc\\Desktop\\ReposirorioGit\\UnoGisAvalonia\\UnoGisAvalonia\\AppMapa2\\Styles1.axaml",
-              "RelativeToolTip": "Styles1.axaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-05-13T10:25:07.477Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\ivanc\\Desktop\\ReposirorioGit\\UnoGisAvalonia\\UnoGisAvalonia\\AppMapa2\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\ivanc\\Desktop\\ReposirorioGit\\UnoGisAvalonia\\UnoGisAvalonia\\AppMapa2\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-13T10:25:07.409Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-13T07:24:30.743Z"
             }
           ]
         },
