@@ -7,6 +7,9 @@ using ReactiveUI;
 using System;
 using System.Collections.ObjectModel;
 using System.Diagnostics;
+using Avalonia.Platform;
+using Avalonia;
+using System.Linq;
 
 namespace AppMapa2.ViewModels
 {
@@ -39,6 +42,7 @@ namespace AppMapa2.ViewModels
         private ViewModelBase? _currentPage6;
         private ViewModelBase? _currentPage7;
         private ViewModelBase? _currentPageCalendario;
+
 
         private Stretch _backgroundStretch = Stretch.Fill;
         public Stretch BackgroundStretch
@@ -199,6 +203,7 @@ namespace AppMapa2.ViewModels
             ShowViewCalendarioCommand = new RelayCommand(ShowViewCalendario);
 
             ToggleBackgroundSizeCommand = new RelayCommand(ToggleBackgroundSize);
+       
 
 
         }

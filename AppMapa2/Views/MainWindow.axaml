@@ -185,7 +185,7 @@
 
 		<SplitView Canvas.Left="0" IsPaneOpen="{Binding IsPaneOpen}"
 	   OpenPaneLength="200" CompactPaneLength="0"
-	   DisplayMode="CompactInline" PaneBackground="Gray" Height="700">
+	   DisplayMode="CompactInline" PaneBackground="Gray" Height="700" Margin="0,50,0,0">
 
 				<SplitView.Pane>
 					
@@ -258,9 +258,6 @@
 							</TreeViewItem>
 						</TreeView>
 
-						<StackPanel Canvas.Bottom="0" Margin="0,100,0,50">
-							<TextBox AcceptsReturn="True" TextWrapping="Wrap" Width="200" Height="125"/>
-						</StackPanel>
 					</StackPanel>
 					
 				</SplitView.Pane>
@@ -273,6 +270,14 @@
 
 
 		</SplitView>
-		
+		<SplitView Canvas.Left="0"  Canvas.Bottom="10" IsPaneOpen="{Binding IsPaneOpen}"
+	   OpenPaneLength="200" CompactPaneLength="0"
+	   DisplayMode="CompactInline" PaneBackground="Gray" Height="290">
+			<SplitView.Pane>
+				<StackPanel Margin="0,130,0,0">
+					<TextBox AcceptsReturn="True" TextWrapping="Wrap" Width="200" Height="165"/>
+				</StackPanel>
+			</SplitView.Pane>
+		</SplitView>
 	</Canvas>
 </Window>

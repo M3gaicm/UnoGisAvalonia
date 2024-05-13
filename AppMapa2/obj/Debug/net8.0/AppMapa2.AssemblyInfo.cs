@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AppMapa2")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fe77a4f4051c9bf6fe7c899d067322cc78411b2f")]
 [assembly: System.Reflection.AssemblyProductAttribute("AppMapa2")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AppMapa2")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
